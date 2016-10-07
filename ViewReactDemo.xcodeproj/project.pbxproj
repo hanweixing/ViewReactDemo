@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		20A9AAB71DA81C6600BBBFA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A9AAB61DA81C6600BBBFA0 /* main.m */; };
+		20A9AABA1DA81C6600BBBFA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A9AAB91DA81C6600BBBFA0 /* AppDelegate.m */; };
+		20A9AABD1DA81C6600BBBFA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A9AABC1DA81C6600BBBFA0 /* ViewController.m */; };
+		20A9AAC01DA81C6600BBBFA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A9AABE1DA81C6600BBBFA0 /* Main.storyboard */; };
+		20A9AAC21DA81C6600BBBFA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A9AAC11DA81C6600BBBFA0 /* Assets.xcassets */; };
+		20A9AAC51DA81C6600BBBFA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20A9AAC31DA81C6600BBBFA0 /* LaunchScreen.storyboard */; };
+		20A9AAD01DA81C6600BBBFA0 /* ViewReactDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A9AACF1DA81C6600BBBFA0 /* ViewReactDemoTests.m */; };
+		20A9AADB1DA81C6600BBBFA0 /* ViewReactDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20A9AADA1DA81C6600BBBFA0 /* ViewReactDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20A9AACC1DA81C6600BBBFA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20A9AAAA1DA81C6600BBBFA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20A9AAB11DA81C6600BBBFA0;
+			remoteInfo = ViewReactDemo;
+		};
+		20A9AAD71DA81C6600BBBFA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20A9AAAA1DA81C6600BBBFA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20A9AAB11DA81C6600BBBFA0;
+			remoteInfo = ViewReactDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20A9AAB21DA81C6600BBBFA0 /* ViewReactDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewReactDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A9AAB61DA81C6600BBBFA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20A9AAB81DA81C6600BBBFA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20A9AAB91DA81C6600BBBFA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20A9AABB1DA81C6600BBBFA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		20A9AABC1DA81C6600BBBFA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		20A9AABF1DA81C6600BBBFA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20A9AAC11DA81C6600BBBFA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20A9AAC41DA81C6600BBBFA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20A9AAC61DA81C6600BBBFA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20A9AACB1DA81C6600BBBFA0 /* ViewReactDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewReactDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A9AACF1DA81C6600BBBFA0 /* ViewReactDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewReactDemoTests.m; sourceTree = "<group>"; };
+		20A9AAD11DA81C6600BBBFA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20A9AAD61DA81C6600BBBFA0 /* ViewReactDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewReactDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20A9AADA1DA81C6600BBBFA0 /* ViewReactDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewReactDemoUITests.m; sourceTree = "<group>"; };
+		20A9AADC1DA81C6600BBBFA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20A9AAAF1DA81C6600BBBFA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20A9AAC81DA81C6600BBBFA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20A9AAD31DA81C6600BBBFA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20A9AAA91DA81C6600BBBFA0 = {
+			isa = PBXGroup;
+			children = (
+				20A9AAB41DA81C6600BBBFA0 /* ViewReactDemo */,
+				20A9AACE1DA81C6600BBBFA0 /* ViewReactDemoTests */,
+				20A9AAD91DA81C6600BBBFA0 /* ViewReactDemoUITests */,
+				20A9AAB31DA81C6600BBBFA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20A9AAB31DA81C6600BBBFA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20A9AAB21DA81C6600BBBFA0 /* ViewReactDemo.app */,
+				20A9AACB1DA81C6600BBBFA0 /* ViewReactDemoTests.xctest */,
+				20A9AAD61DA81C6600BBBFA0 /* ViewReactDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20A9AAB41DA81C6600BBBFA0 /* ViewReactDemo */ = {
+			isa = PBXGroup;
+			children = (
+				20A9AAB81DA81C6600BBBFA0 /* AppDelegate.h */,
+				20A9AAB91DA81C6600BBBFA0 /* AppDelegate.m */,
+				20A9AABB1DA81C6600BBBFA0 /* ViewController.h */,
+				20A9AABC1DA81C6600BBBFA0 /* ViewController.m */,
+				20A9AABE1DA81C6600BBBFA0 /* Main.storyboard */,
+				20A9AAC11DA81C6600BBBFA0 /* Assets.xcassets */,
+				20A9AAC31DA81C6600BBBFA0 /* LaunchScreen.storyboard */,
+				20A9AAC61DA81C6600BBBFA0 /* Info.plist */,
+				20A9AAB51DA81C6600BBBFA0 /* Supporting Files */,
+			);
+			path = ViewReactDemo;
+			sourceTree = "<group>";
+		};
+		20A9AAB51DA81C6600BBBFA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20A9AAB61DA81C6600BBBFA0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		20A9AACE1DA81C6600BBBFA0 /* ViewReactDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				20A9AACF1DA81C6600BBBFA0 /* ViewReactDemoTests.m */,
+				20A9AAD11DA81C6600BBBFA0 /* Info.plist */,
+			);
+			path = ViewReactDemoTests;
+			sourceTree = "<group>";
+		};
+		20A9AAD91DA81C6600BBBFA0 /* ViewReactDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20A9AADA1DA81C6600BBBFA0 /* ViewReactDemoUITests.m */,
+				20A9AADC1DA81C6600BBBFA0 /* Info.plist */,
+			);
+			path = ViewReactDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20A9AAB11DA81C6600BBBFA0 /* ViewReactDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20A9AADF1DA81C6600BBBFA0 /* Build configuration list for PBXNativeTarget "ViewReactDemo" */;
+			buildPhases = (
+				20A9AAAE1DA81C6600BBBFA0 /* Sources */,
+				20A9AAAF1DA81C6600BBBFA0 /* Frameworks */,
+				20A9AAB01DA81C6600BBBFA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ViewReactDemo;
+			productName = ViewReactDemo;
+			productReference = 20A9AAB21DA81C6600BBBFA0 /* ViewReactDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20A9AACA1DA81C6600BBBFA0 /* ViewReactDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20A9AAE21DA81C6600BBBFA0 /* Build configuration list for PBXNativeTarget "ViewReactDemoTests" */;
+			buildPhases = (
+				20A9AAC71DA81C6600BBBFA0 /* Sources */,
+				20A9AAC81DA81C6600BBBFA0 /* Frameworks */,
+				20A9AAC91DA81C6600BBBFA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20A9AACD1DA81C6600BBBFA0 /* PBXTargetDependency */,
+			);
+			name = ViewReactDemoTests;
+			productName = ViewReactDemoTests;
+			productReference = 20A9AACB1DA81C6600BBBFA0 /* ViewReactDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20A9AAD51DA81C6600BBBFA0 /* ViewReactDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20A9AAE51DA81C6600BBBFA0 /* Build configuration list for PBXNativeTarget "ViewReactDemoUITests" */;
+			buildPhases = (
+				20A9AAD21DA81C6600BBBFA0 /* Sources */,
+				20A9AAD31DA81C6600BBBFA0 /* Frameworks */,
+				20A9AAD41DA81C6600BBBFA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20A9AAD81DA81C6600BBBFA0 /* PBXTargetDependency */,
+			);
+			name = ViewReactDemoUITests;
+			productName = ViewReactDemoUITests;
+			productReference = 20A9AAD61DA81C6600BBBFA0 /* ViewReactDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20A9AAAA1DA81C6600BBBFA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = hanweixingTeam;
+				TargetAttributes = {
+					20A9AAB11DA81C6600BBBFA0 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					20A9AACA1DA81C6600BBBFA0 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20A9AAB11DA81C6600BBBFA0;
+					};
+					20A9AAD51DA81C6600BBBFA0 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20A9AAB11DA81C6600BBBFA0;
+					};
+				};
+			};
+			buildConfigurationList = 20A9AAAD1DA81C6600BBBFA0 /* Build configuration list for PBXProject "ViewReactDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20A9AAA91DA81C6600BBBFA0;
+			productRefGroup = 20A9AAB31DA81C6600BBBFA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20A9AAB11DA81C6600BBBFA0 /* ViewReactDemo */,
+				20A9AACA1DA81C6600BBBFA0 /* ViewReactDemoTests */,
+				20A9AAD51DA81C6600BBBFA0 /* ViewReactDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20A9AAB01DA81C6600BBBFA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A9AAC51DA81C6600BBBFA0 /* LaunchScreen.storyboard in Resources */,
+				20A9AAC21DA81C6600BBBFA0 /* Assets.xcassets in Resources */,
+				20A9AAC01DA81C6600BBBFA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20A9AAC91DA81C6600BBBFA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20A9AAD41DA81C6600BBBFA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20A9AAAE1DA81C6600BBBFA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A9AABD1DA81C6600BBBFA0 /* ViewController.m in Sources */,
+				20A9AABA1DA81C6600BBBFA0 /* AppDelegate.m in Sources */,
+				20A9AAB71DA81C6600BBBFA0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20A9AAC71DA81C6600BBBFA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A9AAD01DA81C6600BBBFA0 /* ViewReactDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20A9AAD21DA81C6600BBBFA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20A9AADB1DA81C6600BBBFA0 /* ViewReactDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20A9AACD1DA81C6600BBBFA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20A9AAB11DA81C6600BBBFA0 /* ViewReactDemo */;
+			targetProxy = 20A9AACC1DA81C6600BBBFA0 /* PBXContainerItemProxy */;
+		};
+		20A9AAD81DA81C6600BBBFA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20A9AAB11DA81C6600BBBFA0 /* ViewReactDemo */;
+			targetProxy = 20A9AAD71DA81C6600BBBFA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20A9AABE1DA81C6600BBBFA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20A9AABF1DA81C6600BBBFA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20A9AAC31DA81C6600BBBFA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20A9AAC41DA81C6600BBBFA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20A9AADD1DA81C6600BBBFA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20A9AADE1DA81C6600BBBFA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20A9AAE01DA81C6600BBBFA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ViewReactDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-hanweixing.ViewReactDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20A9AAE11DA81C6600BBBFA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ViewReactDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-hanweixing.ViewReactDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		20A9AAE31DA81C6600BBBFA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ViewReactDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-hanweixing.ViewReactDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewReactDemo.app/ViewReactDemo";
+			};
+			name = Debug;
+		};
+		20A9AAE41DA81C6600BBBFA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ViewReactDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-hanweixing.ViewReactDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ViewReactDemo.app/ViewReactDemo";
+			};
+			name = Release;
+		};
+		20A9AAE61DA81C6600BBBFA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ViewReactDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-hanweixing.ViewReactDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ViewReactDemo;
+			};
+			name = Debug;
+		};
+		20A9AAE71DA81C6600BBBFA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ViewReactDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "https---github.com-hanweixing.ViewReactDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ViewReactDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20A9AAAD1DA81C6600BBBFA0 /* Build configuration list for PBXProject "ViewReactDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20A9AADD1DA81C6600BBBFA0 /* Debug */,
+				20A9AADE1DA81C6600BBBFA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20A9AADF1DA81C6600BBBFA0 /* Build configuration list for PBXNativeTarget "ViewReactDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20A9AAE01DA81C6600BBBFA0 /* Debug */,
+				20A9AAE11DA81C6600BBBFA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20A9AAE21DA81C6600BBBFA0 /* Build configuration list for PBXNativeTarget "ViewReactDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20A9AAE31DA81C6600BBBFA0 /* Debug */,
+				20A9AAE41DA81C6600BBBFA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		20A9AAE51DA81C6600BBBFA0 /* Build configuration list for PBXNativeTarget "ViewReactDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20A9AAE61DA81C6600BBBFA0 /* Debug */,
+				20A9AAE71DA81C6600BBBFA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20A9AAAA1DA81C6600BBBFA0 /* Project object */;
+}
